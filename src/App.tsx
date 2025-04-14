@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import "./App.css";
 import { MainPage } from "./Components/Pages/MainPage";
 import { HouseInfoPage } from "./Components/Pages/HouseInfoPage";

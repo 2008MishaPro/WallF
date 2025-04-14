@@ -15,7 +15,7 @@ export const AboutUs = () => {
           <p>удобным расположением.</p>
         </div>
       </div>
-      <PartHeader>Наши преимущества</PartHeader>
+      <PartHeader color = "F8F8F8" textColor="CEE27E">Наши преимущества</PartHeader>
       <OurAd />
       <Reviews />
     </div>

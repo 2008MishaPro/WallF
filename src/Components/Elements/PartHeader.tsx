@@ -1,13 +1,13 @@
 import "../Styles/OnTopH.css";
 interface OnTopHeaderProps {
   children: React.ReactNode;
-  color: string | "F8F8F8";
-  textColor: string | "CEE27E";
+  color: string;
+  textColor: string;
 }
 export const PartHeader = ({
   children,
-  color,
-  textColor,
+  color = "F8F8F8",
+  textColor = "CEE27E",
 }: OnTopHeaderProps) => {
   return (
     <div className="ConHeaderH" style={{ backgroundColor: `#${color}` }}>

@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { PartHeader } from "../Elements/PartHeader";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
@@ -52,7 +53,8 @@ export const ContactUs = () => {
     }
   }, [location.state]);
 
-  const onSubmit = (data: any) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const onSubmit = () => {
     setFormStatus(true);
   };
   const FormAccept = () => {
@@ -79,7 +81,7 @@ export const ContactUs = () => {
 
   return (
     <div style={{ padding: 0, margin: 0 }}>
-      <PartHeader >Связаться с нами</PartHeader>
+      <PartHeader color = "F8F8F8" textColor="CEE27E" >Связаться с нами</PartHeader>
 
       <div className="form-container" id="contactUs">
         {formStatus !== false ? <FormAccept /> : null}
@@ -133,7 +135,5 @@ export const ContactUs = () => {
     </div>
   );
 };
-function setValue(arg0: string, initialHouseNumber: number) {
-  throw new Error("Function not implemented.");
-}
+
 
