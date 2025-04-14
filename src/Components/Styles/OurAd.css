@@ -1,0 +1,311 @@
+.ContOur{
+    width: 100%;
+    max-width: 100%;
+    height: 830px;
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/Img/Houses/ajy.jpg');
+    background-position: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.Advet{
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+    max-width: 1100px;
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        rgba(216, 216, 204, 0.9) 0%, 
+        #B5B7AC 15%,                 
+        #B5B7AC 85%,                 
+        rgba(216, 216, 204, 0.9) 95% 
+    );
+}
+.AdvCard{
+    padding-inline: 15px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-size: 40px;
+    gap: 45px;
+    text-align: justify;
+    font-family: 'MontserratMedium', sans-serif;
+}
+.AdvCard>h1{
+    font-family: 'MontserratMedium', sans-serif;
+    font-size: 64px;
+    padding: 0;
+    margin: 0;
+}
+.CharsCont>h1{
+    padding: 0;
+    margin: 0;
+}
+
+.AdvCard>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+}
+.MoreInfoImg{
+    min-height: 80px;
+    height: 100px;
+    max-height: 105px;
+    transition: 0.5s ease;
+}
+.MoreInfoImg:hover{
+    transform: scale(1.1)
+}
+.MoreContacts{
+    min-width: 300px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: row;
+    padding-inline: 15px;
+
+    gap: 10px;
+    align-items: end;
+    align-content: end;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.PhoneMore{
+    font-family: 'MontserratMedium', sans-serif;
+    font-size: 42px;
+    text-align: center;
+        align-items: end;
+        align-content: end;
+        min-width: 300px;
+        max-width: 400px;
+}
+.PhoneMore.mobile{
+    max-width: 80% ;
+    flex-direction: row;
+}
+.ContOur.mobileContainer{
+    width: 100%;
+    max-width: 900px;
+}
+.MoreContacts.mobileContacts{
+    max-width: 400px ;
+    flex-direction: row;
+    align-items: center;
+    align-content:center;
+}
+.Advet.mobileContainer{
+    width: 100%;
+}
+.SocialList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.CharsCont{
+    align-self:center;
+    
+}
+
+
+
+@media (min-width:2000px){
+    .ContOur{
+        min-width: 2000px;
+        max-width: 3000px;
+    }
+
+    .Advet{
+
+        min-width: 1100px;
+        max-width: 1400px;
+    }
+}
+@media (max-width:1700px){
+
+    .Advet{
+        min-width: 900px;
+        max-width: 1000px;
+    }
+    .PhoneMore{
+        font-size: 34px;
+        text-align: center;
+        align-items: end;
+        align-content: center;
+        max-width: 300px;
+        width: 300px;
+        min-width: 300px;
+    }
+    .MoreContacts{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        padding-inline: 15px;
+        justify-content:space-around;
+        align-items: center;
+        gap: 10px;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    @media (max-width:1500px){
+        .Advet{
+            min-width: 700px;
+            max-width: 900px;
+        }
+        .PhoneMore{
+            font-size: 30px;
+            text-align: center;
+            align-items: end;
+            align-content: center;
+            width: 300px;
+            min-width: 200px;
+        }
+        .MoreContacts{
+            width: 300px;
+            min-width: 200px;
+        }
+        .AdvCard{
+            font-size: 34px;
+        }
+    
+        .AdvCard h1{
+            font-size: 50px;
+        }
+    }
+    @media (max-width: 1250px) {
+        .ContOur{
+    
+            background-repeat: no-repeat;
+            background-image: url('../../assets/Img/Houses/ajy.jpg');
+            background-position: center;
+        }
+        .Advet{
+            max-width: 800px;
+        }
+        .MoreContacts{
+            max-width: 200px;
+            min-width: 150px;
+        }
+        .MoreInfoImg{
+            min-height: 80px;
+            height: 85px;
+            max-height: 90px;
+            position: relative;
+            transition: 0.5s ease;
+        }
+        .PhoneMore{
+            font-size: 28px;
+            max-width: 200px;
+            min-width: 150px;
+        }
+        .AdvCard>p{
+            font-size: 30px;
+        }
+        .AdvCard>h1{
+            font-size: 42px;
+        }
+    }
+}
+@media (max-width:1000px){
+    .ContOur{
+        width: 100%;
+        min-width: 100%;
+    }
+    .Advet{
+        font-size:20px;
+        max-width: 1000px;
+        width: 1000px;
+        height: 100%;
+    }
+}
+    @media (max-width:768px) {
+    .SocialList{
+        flex-direction: column;
+        align-content: center;
+        gap: 0;
+    }
+    .PhoneMore{
+        font-size: 24px;
+        text-align: center;
+        align-items: end;
+        align-content: end;
+    }
+    .Advet{
+        position:relative;
+        font-size:26px;
+        height: 100%;
+        min-width:100% ;
+    }
+    .ContOur{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .MoreContacts{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-inline: 15px;
+        justify-content:space-around;
+        gap: 10px;
+        align-items: end;
+        padding-bottom: 30px;
+    }
+    .AdvCard{
+        padding-inline: 15px;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        font-size: 26px;
+    }
+    .AdvCard>h1{
+        font-size: 30px;
+    }
+    .AdvCard>p{
+        font-size: 26px;
+    }
+    .MoreInfoImg{
+        height:65px;
+        max-height: 70px;
+    }
+}
+@media(max-width: 500px){
+    .SocialList{
+        max-height: 200px;
+    }
+    .PhoneMore{
+        max-height: 80px;
+    }
+    .PhoneMore>p{
+        padding: 0;
+        margin: 0;
+    }
+    .CharsCont>h1{
+        font-size: 40px;
+    }
+    .AdvCard{
+        gap: 15px;
+    }
+    .AdvCard>p{
+        font-size: 24px;
+        
+    }
+    .MoreContacts{
+        max-width: 80%;
+        min-width: 50%;
+    }
+    .MoreInfoImg{
+        height:60px;
+        min-height: 60px;
+        max-height: 65px;
+    }
+}

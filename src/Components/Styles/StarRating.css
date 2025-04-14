@@ -1,0 +1,41 @@
+.StarRating {
+    display: inline-flex;
+    gap: 4px; 
+    font-size: 56px; 
+  }
+  
+  .star {
+    line-height: 1; 
+  }
+  
+  .filled {
+    color: #CEE27E;
+  }
+  
+  .HalfFilled {
+    position: relative;
+    color: #ccc; 
+  }
+  
+  .HalfFilled::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    width: 50%; 
+    overflow: hidden; 
+    color: gold; 
+  }
+  
+  .empty {
+    color: #ccc;
+  }
+  @media (max-width: 1200px) {
+    .StarRating {
+      font-size: 44px; 
+    }
+  }
+  @media (max-width: 500px) {
+    .StarRating {
+      font-size: 36px; 
+    }
+  }

@@ -1,0 +1,142 @@
+.MainRew{
+ background-color: #EDEFE0;
+ padding: 10px;
+padding-bottom: 20px;
+
+}
+
+.HeaderRew{
+
+}
+.ReviewsCon{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-around;
+
+}
+header>p{
+    font-family: 'MontserratRegular', sans-serif ;
+    font-size: 48px;
+    color: #FFFFF5;
+}
+
+.ReviewCard{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFF5;
+    padding: 20px;
+    border-radius: 15px;
+    width: 550px;
+    height: 350px;
+    color: #CEE27E;
+    font-family: 'MontserratRegular', sans-serif ;
+}
+
+.ReviewCard>h3{
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    text-align: left;
+}
+
+.ReviewCard>p{
+   font-size: 32px;
+}
+.ReviewsCon {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow-x: auto; /* Добавляет горизонтальную прокрутку */
+    white-space: nowrap; /* Предотвращает перенос на новую строку */
+    padding-bottom: 10px; /* Немного отступа, чтобы скролл не перекрывал отзывы */
+}
+
+/* Скрываем стандартный скроллбар */
+.ReviewsCon::-webkit-scrollbar {
+    height: 8px;
+}
+
+.ReviewsCon::-webkit-scrollbar-thumb {
+    background: #CEE27E;
+    border-radius: 10px;
+}
+.ReviewsCon {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    overflow-x: auto;
+    scroll-behavior: .5s; 
+    padding-bottom: 10px;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.ReviewsCon::-webkit-scrollbar {
+    display: none; 
+}
+
+.ReviewCard {
+    flex: 0 0 auto;
+    height: auto;
+    padding: 20px;
+    background-color: #FFFFF5;
+    border-radius: 15px;
+    color: #CEE27E;
+    font-family: 'MontserratRegular', sans-serif;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+@media (max-width:1700px) {
+    .ReviewCard{
+        width: 500px;;
+    }
+    
+     @media (max-width: 1200px) {
+        header>p{
+            font-size: 42px;
+        }
+         .ReviewsCon{
+            gap: 15px;
+        
+        }
+        .ReviewCard{
+            width: 400px;;
+            height: 300px;
+            overflow: hidden;
+        }
+        .ReviewCard>h3{
+            font-size: 32px;
+        }
+        .ReviewCard>p{
+            text-align: justify;
+            font-size: 26px;
+        }
+     }
+     @media (max-width: 500px){
+        header>p{
+            font-size: 36px;
+        }
+        .ReviewCard{
+            width: 290px;;
+            height: 240px;
+            overflow: hidden;
+        }
+        .ReviewCard>h3{
+            font-size: 26px;
+        }
+        .ReviewCard>p{
+            text-align: justify;
+            font-size: 20px;
+        }
+        .MainRew{
+            padding: 5px;
+           
+           }
+     }
+}
