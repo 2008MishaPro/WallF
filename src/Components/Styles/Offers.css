@@ -155,4 +155,5 @@
 
 .fixetBtn{
   position: fixed;
+  max-width: 40%;
 }
