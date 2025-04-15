@@ -20,9 +20,7 @@ export const HouseInfoPage = () => {
 
   return (
     <>
-      <button onClick={ShowMainPage} className="CarouselButton prev fixetBtn">
-        ← Вернуться к каталогу
-      </button>
+      
       <div className="HouseInfo">
         <PartHeader textColor="FFFFF5" color="CEE27E">
           {currentOffer.name}
@@ -74,8 +72,12 @@ export const HouseInfoPage = () => {
               {currentOffer.properties.conveniences} <br />
             </div>
           </div>
+
         </div>
         <p>ID: №{currentOffer.id}</p>
+        <button onClick={ShowMainPage} className="CarouselButton1">
+        ← Вернуться к каталогу
+      </button>
       </div>
     </>
   );

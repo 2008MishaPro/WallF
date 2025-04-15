@@ -132,6 +132,11 @@
     max-width: 100%;
     width: 60%;   
 }
+.fixetBtn{
+  position: fixed;
+  max-width: 40%;
+  font-size: 14px;
+}
   @media (max-width: 450px){
     .OfferCard{
       max-width: 300px;

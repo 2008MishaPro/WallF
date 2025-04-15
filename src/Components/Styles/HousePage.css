@@ -22,6 +22,15 @@
 .AboutHouse{
     padding-inline: 30px;
 }
+.CarouselButton1 {
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
 
 .PropertiesPart{
     display: flex;

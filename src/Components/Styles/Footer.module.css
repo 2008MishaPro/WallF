@@ -30,6 +30,7 @@
     flex-direction: row;
     min-width: auto;
     max-width: 280px;
+    padding-bottom: 0;
 }
 
 .moreInfo{
@@ -46,6 +47,7 @@
 .social img{
     max-height: 80px;
     min-height: 55px;
+    
  }
 @media(max-width:1200px){
     .footerContainer h2{
