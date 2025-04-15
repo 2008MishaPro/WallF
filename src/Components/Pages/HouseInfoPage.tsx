@@ -49,7 +49,6 @@ export const HouseInfoPage = () => {
           </button>
         </div>
         <div className="AboutHouse">
-          {/* <img src={currentOffer.bcgUrl} alt="" className="HouseProfilePhoto" /> */}
           <div className="DiscriptionPart">
             <h2>Описание</h2>
             <p className="HouseDescription">{currentOffer.description}</p>

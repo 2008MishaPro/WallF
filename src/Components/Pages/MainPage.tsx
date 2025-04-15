@@ -10,7 +10,6 @@ export const MainPage = () => {
       <BestOffers/>
       <ContactUs/>
       <Footer/>
-      {/* <p>Main</p> */}
     </div>
   );
 };

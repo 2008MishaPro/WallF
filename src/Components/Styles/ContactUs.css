@@ -196,6 +196,9 @@ label {
     height: 1200px;
     background-color: #EDEFE0
   }
+  .FormAcceptContent {
+    width: 60%;
+  }
 
   .formBox {
     width: 90%;
@@ -258,6 +261,10 @@ label {
     .SumbBtn {
       font-size: 32px;
     }
+    .FormAcceptContent {
+      width: 80%;
+      font-size: 24px;
+    }
   }
 
   @media (max-width: 600px) {
@@ -270,6 +277,9 @@ label {
     .smaller{
       font-size: 26px;
       height: 70px;
+    }
+    .AcceptBtn{
+      font-size: 24px;
     }
   }
 
@@ -284,6 +294,9 @@ label {
     .smaller{
       font-size: 22px;
       height: 50px;
+    }
+    .FormAcceptContent {
+      width: 90%;
     }
   }
 
