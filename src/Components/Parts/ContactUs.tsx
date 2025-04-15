@@ -83,11 +83,11 @@ export const ContactUs = () => {
     <div style={{ padding: 0, margin: 0 }}>
       <PartHeader color = "F8F8F8" textColor="CEE27E" >Связаться с нами</PartHeader>
 
-      <div className="form-container" id="contactUs">
+      <div className="formContainer" id="contactUs">
         {formStatus !== false ? <FormAccept /> : null}
-        <div className="form-box">
+        <div className="formBox">
           <form onSubmit={handleSubmit(onSubmit)} className="SumbitCon">
-            <div className="form-group">
+            <div className="formGroup">
               <div className="FullName FormAdapt">
                 <label>ФИО</label>
                 <input {...register("fullName")} placeholder="Введите ФИО" />
@@ -104,7 +104,7 @@ export const ContactUs = () => {
               </div>
             </div>
 
-            <div className="form-group ">
+            <div className="formGroup ">
               <div className="PhoneInp FormAdapt">
                 <label>Телефон</label>
                 <input

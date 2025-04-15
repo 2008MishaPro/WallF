@@ -38,7 +38,7 @@
   cursor: pointer;
 }
 
-.form-container {
+.formContainer {
   margin: 0;
   padding-top: 30px;
   display: flex;
@@ -49,7 +49,7 @@
   background-color: #EDEFE0
 }
 
-.form-box {
+.formBox {
   text-align: left;
   background: #fffff8;
   padding: 20px;
@@ -80,7 +80,7 @@ form {
   width: 65%;
 }
 
-.form-group {
+.formGroup {
   display: flex;
   justify-content: space-between;
   gap: 15px;
@@ -180,7 +180,7 @@ label {
     padding: 30px;
   }
 
-  .form-box {
+  .formBox {
     width: 90%;
     height: auto;
 
@@ -189,7 +189,7 @@ label {
 }
 
 @media (max-width: 1024px) {
-  .form-container {
+  .formContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +197,7 @@ label {
     background-color: #EDEFE0
   }
 
-  .form-box {
+  .formBox {
     width: 90%;
     height: auto;
 
@@ -225,7 +225,7 @@ label {
     font-size: 14px;
   }
 
-  .form-group {
+  .formGroup {
     display: flex;
     flex-direction: column;
     /* gap: 15px; */
